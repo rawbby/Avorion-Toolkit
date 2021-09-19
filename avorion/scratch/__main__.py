@@ -146,6 +146,12 @@ def main(argv: [str]):
     #    print(f"hangar_hp:       {hangar_hp}")
     #    print(f"hangar_cost:     {hangar_cost}")
     #    print()
+
+    import json
+    import avorion
+
+    print(json.dumps(3220065408 / 856000000))
+
     return 0
 
 

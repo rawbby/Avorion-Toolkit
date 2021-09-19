@@ -1,1 +1,1 @@
-import avorion.block
+import avorion.block as block

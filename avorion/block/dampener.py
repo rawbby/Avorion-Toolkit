@@ -1,25 +1,23 @@
-dampener_material_credits = {
-    'iron': 333.333322406,
-    'avorion': 2017.815327645,
-}
+from . import *
 
-dampener_material_cost = 1985555968 / 500_000_000
+_dampener_cost = 3.971111936
+_dampener_processing = 1.
 
-dampener_material_hp = {
-    'iron': .5,
-    'avorion': 5.69531,
-}
-
-dampener_material_mass = {
-    'iron': 25.5,
-    'avorion': 18.
-}
-dampener_material_energy_consumption = {
-    'iron': 54.39,
-    'avorion': 71.28,
-}
-
-dampener_material_processing = {
-    'iron': 1.,
-    'avorion': 1.,
+dampener = {
+    material_iron: {
+        attribute_credits: 333.333322406,
+        attribute_cost: _dampener_cost,
+        attribute_hp: .5,
+        attribute_mass: 25.5,
+        attribute_energy_consumption: 54.39,
+        attribute_processing: _dampener_processing,
+    },
+    material_avorion: {
+        attribute_credits: 2017.815327645,
+        attribute_cost: _dampener_cost,
+        attribute_hp: 5.69531,
+        attribute_mass: 18.,
+        attribute_energy_consumption: 71.28,
+        attribute_processing: _dampener_processing,
+    },
 }

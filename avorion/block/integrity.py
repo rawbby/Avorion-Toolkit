@@ -1,47 +1,48 @@
-integrity_material_credits = {
-    'titanium': 0.,
-    'naonite': 0.,
-    'trinium': 0.,
-    'xanion': 0.,
-    'avorion': 0.,
-}
+from . import *
 
-integrity_material_cost = {
-    'titanium': 0.,
-    'naonite': 0.,
-    'trinium': 0.,
-    'xanion': 0.,
-    'avorion': 0.,
-}
+integrity_cost = 1.215752192
+integrity_energy_consumption = 9.38
+integrity_processing = 1.
 
-integrity_material_hp = {
-    'titanium': 0.,
-    'naonite': 0.,
-    'trinium': 0.,
-    'xanion': 0.,
-    'avorion': 0.,
-}
-
-integrity_material_mass = {
-    'titanium': 0.,
-    'naonite': 0.,
-    'trinium': 0.,
-    'xanion': 0.,
-    'avorion': 0.,
-}
-
-integrity_material_energy_consumption = {
-    'titanium': 0.,
-    'naonite': 0.,
-    'trinium': 0.,
-    'xanion': 0.,
-    'avorion': 0.,
-}
-
-integrity_material_processing = {
-    'titanium': 1.,
-    'naonite': 1.,
-    'trinium': 1.,
-    'xanion': 1.,
-    'avorion': 1.,
+integrity = {
+    material_titanium: {
+        attribute_credits: 550.000000000,
+        attribute_cost: integrity_cost,
+        attribute_hp: 0.75,
+        attribute_mass: 40.,
+        attribute_energy_consumption: integrity_energy_consumption,
+        attribute_processing: integrity_processing,
+    },
+    material_naonite: {
+        attribute_credits: 655.000007153,
+        attribute_cost: integrity_cost,
+        attribute_hp: 1.125,
+        attribute_mass: 44.,
+        attribute_energy_consumption: integrity_energy_consumption,
+        attribute_processing: integrity_processing,
+    },
+    material_trinium: {
+        attribute_credits: 796.750032902,
+        attribute_cost: integrity_cost,
+        attribute_hp: 1.6875,
+        attribute_mass: 28.,
+        attribute_energy_consumption: integrity_energy_consumption,
+        attribute_processing: integrity_processing,
+    },
+    material_xanion: {
+        attribute_credits: 988.112521172,
+        attribute_cost: integrity_cost,
+        attribute_hp: 2.53125,
+        attribute_mass: 36.,
+        attribute_energy_consumption: integrity_energy_consumption,
+        attribute_processing: integrity_processing,
+    },
+    material_avorion: {
+        attribute_credits: 1595.210218430,
+        attribute_cost: integrity_cost,
+        attribute_hp: 5.69531,
+        attribute_mass: 48.,
+        attribute_energy_consumption: integrity_energy_consumption,
+        attribute_processing: integrity_processing,
+    },
 }

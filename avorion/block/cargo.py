@@ -1,41 +1,56 @@
-cargo_material_credits = {
-    'iron': 27.777776868,
-    'titanium': 37.5,
-    'naonite': 50.625000895,
-    'trinium': 68.343754113,
-    'xanion': 92.264065147,
-    'ogonite': 124.55649376,
-    'avorion': 168.151277304,
-}
+from . import *
 
-cargo_material_cost = 12.5
+_cargo_cost = 12.5
+_cargo_processing = 1.
 
-cargo_material_hp = {
-    'iron': 4.,
-    'titanium': 6.,
-    'naonite': 9.,
-    'trinium': 13.5,
-    'xanion': 20.25,
-    'ogonite': 30.375,
-    'avorion': 45.5625,
-}
-
-cargo_material_mass = {
-    'iron': 17.,
-    'titanium': 10.,
-    'naonite': 11.,
-    'trinium': 7.,
-    'xanion': 9.,
-    'ogonite': 15.,
-    'avorion': 12.,
-}
-
-cargo_material_processing = {
-    'iron': 1.,
-    'titanium': 1.,
-    'naonite': 1.,
-    'trinium': 1.,
-    'xanion': 1.,
-    'ogonite': 1.,
-    'avorion': 1.,
+cargo = {
+    material_iron: {
+        attribute_credits: 27.777776868,
+        attribute_cost: _cargo_cost,
+        attribute_hp: 4.,
+        attribute_mass: 17.,
+        attribute_processing: _cargo_processing,
+    },
+    material_titanium: {
+        attribute_credits: 37.5,
+        attribute_cost: _cargo_cost,
+        attribute_hp: 6.,
+        attribute_mass: 10.,
+        attribute_processing: _cargo_processing,
+    },
+    material_naonite: {
+        attribute_credits: 50.625000895,
+        attribute_cost: _cargo_cost,
+        attribute_hp: 9.,
+        attribute_mass: 11.,
+        attribute_processing: _cargo_processing,
+    },
+    material_trinium: {
+        attribute_credits: 68.343754113,
+        attribute_cost: _cargo_cost,
+        attribute_hp: 13.5,
+        attribute_mass: 7.,
+        attribute_processing: _cargo_processing,
+    },
+    material_xanion: {
+        attribute_credits: 92.264065147,
+        attribute_cost: _cargo_cost,
+        attribute_hp: 20.25,
+        attribute_mass: 9.,
+        attribute_processing: _cargo_processing,
+    },
+    material_ogonite: {
+        attribute_credits: 124.55649376,
+        attribute_cost: _cargo_cost,
+        attribute_hp: 30.375,
+        attribute_mass: 15.,
+        attribute_processing: _cargo_processing,
+    },
+    material_avorion: {
+        attribute_credits: 168.151277304,
+        attribute_cost: _cargo_cost,
+        attribute_hp: 45.5625,
+        attribute_mass: 12.,
+        attribute_processing: _cargo_processing,
+    },
 }

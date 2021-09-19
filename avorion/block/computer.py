@@ -1,31 +1,32 @@
-computer_material_credits = {
-    'trinium': 1136.687508226,
-    'xanion': 1184.528130293,
-    'avorion': 1336.302554608,
-}
+from . import *
 
-computer_material_cost = 25.
+_computer_cost = 25.
+_computer_energy_consumption = 18.75
+_computer_processing = 7.5
 
-computer_material_hp = {
-    'trinium': 1.6875,
-    'xanion': 2.53125,
-    'avorion': 5.69531,
-}
-
-computer_material_mass = {
-    'trinium': 28.,
-    'xanion': 36.,
-    'avorion': 48.,
-}
-
-computer_material_energy_consumption = {
-    'trinium': 18.75,
-    'xanion': 18.75,
-    'avorion': 18.75,
-}
-
-computer_material_processing = {
-    'trinium': 7.5,
-    'xanion': 7.5,
-    'avorion': 7.5,
+computer = {
+    material_trinium: {
+        attribute_credits: 1136.687508226,
+        attribute_cost: _computer_cost,
+        attribute_hp: 1.6875,
+        attribute_mass: 28.,
+        attribute_energy_consumption: _computer_energy_consumption,
+        attribute_processing: _computer_processing,
+    },
+    material_xanion: {
+        attribute_credits: 1184.528130293,
+        attribute_cost: _computer_cost,
+        attribute_hp: 2.53125,
+        attribute_mass: 36.,
+        attribute_energy_consumption: _computer_energy_consumption,
+        attribute_processing: _computer_processing,
+    },
+    material_avorion: {
+        attribute_credits: 1336.302554608,
+        attribute_cost: _computer_cost,
+        attribute_hp: 5.69531,
+        attribute_mass: 48.,
+        attribute_energy_consumption: _computer_energy_consumption,
+        attribute_processing: _computer_processing,
+    },
 }
