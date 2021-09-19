@@ -1,1 +1,2 @@
-import avorion.block as block
+import avorion.block
+from .ship import *

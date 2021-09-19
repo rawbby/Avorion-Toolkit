@@ -3,7 +3,7 @@ from . import *
 _storage_processing = 1.
 _storage_cost = 17.5
 
-storage = {
+energy_container = {
     material_titanium: {
         attribute_credits: 52.5,
         attribute_cost: _storage_cost,

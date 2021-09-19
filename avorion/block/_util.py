@@ -13,7 +13,7 @@ block_quarters = 'quarters'
 block_thruster = 'thruster'
 block_hangar = 'hangar'
 block_shield = 'shield'
-block_storage = 'storage'
+block_energy_container = 'energy_container'
 block_generator = 'generator'
 block_integrity = 'integrity'
 block_computer = 'computer'
@@ -31,6 +31,12 @@ attribute_cost = 'cost'
 attribute_crew = 'crew'
 attribute_hangar = 'hangar'
 attribute_energy_generation = 'energy_generation'
+attribute_dampener_force = 'dampener_force'
+
+
 # attribute_yaw = 'yaw'
 # attribute_pitch = 'pitch'
 # attribute_roll = 'roll'
+
+def calculate_hyperspace_jump_energy(volume: float, mass: float):
+    return volume * mass

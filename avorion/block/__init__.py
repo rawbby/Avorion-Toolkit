@@ -10,5 +10,5 @@ from .hangar import hangar
 from .integrity import integrity
 from .quarters import quarters
 from .shield import shield
-from .storage import storage
+from .energy_container import energy_container
 from .thruster import thruster
